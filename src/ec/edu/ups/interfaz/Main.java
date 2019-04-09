@@ -28,6 +28,12 @@ public class Main {
         Animal condor = new Animal("Condor", 10, 11.1, "hembra");
         Animal aguila = new Animal("Aguila", 4, 7.6, "macho");
         
+       Perro g = new Perro("pirulaisi", 5, 50.2, "macho");
+       g.comer();
+       g.dormir();
+       g.jugar();
+       g.moverse();
+        
         
         System.out.println(chihuahua);
         System.out.println(bulldog);

@@ -13,6 +13,12 @@ import ec.edu.ups.interfaz.Acciones;
  */
 public class Perro  extends Animal implements Acciones {
 
+    public Perro(String nombre, int edad, double peso, String sexo) {
+        super(nombre, edad, peso, sexo);
+    }
+    
+    
+
     @Override
     public void comer() { 
         System.out.println("El perro "+ this.getNombre() +" esta comiendo");
