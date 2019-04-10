@@ -17,8 +17,7 @@ public class Perro  extends Animal implements Acciones {
         super(nombre, edad, peso, sexo);
     }
     
-    
-
+    //metodos abstractos que heradaron de la clase padre.
     @Override
     public void comer() { 
         System.out.println("El perro "+ this.getNombre() +" esta comiendo");
@@ -41,7 +40,7 @@ public class Perro  extends Animal implements Acciones {
 
     @Override
     public void reproducir() {
-        System.out.println("El perro de sexo "+this.getSexo()+"son mas lindos");
+        System.out.println("El perro de sexo "+this.getSexo()+" son mas lindos");
     }
     
 }
