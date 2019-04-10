@@ -26,7 +26,7 @@ public class Perro  extends Animal implements Acciones {
 
     @Override
     public void dormir() {
-        System.out.println("El perro de "+this.getEdad()+"años duermen poco");
+        System.out.println("El perro de "+this.getEdad()+" años duermen poco");
     }
 
     @Override
@@ -36,7 +36,7 @@ public class Perro  extends Animal implements Acciones {
 
     @Override
     public void jugar() {
-        System.out.println("El perro  "+this.getNombre()+"no se cansa de jugar");
+        System.out.println("El perro  "+this.getNombre()+" no se cansa de jugar");
     }
 
     @Override

@@ -13,6 +13,14 @@ import ec.edu.ups.interfaz.Acciones;
  */
 public class PezEspada extends Animal implements Acciones {
 
+    public PezEspada() {
+    }
+
+    public PezEspada(String nombre, int edad, double peso, String sexo) {
+        super(nombre, edad, peso, sexo);
+    }
+
+    //metodos abstractos que heredan de la clase padre, Acciones.   
     @Override
     public void comer() {
         System.out.println("El pez " + this.getNombre() + "esta comiendo");
